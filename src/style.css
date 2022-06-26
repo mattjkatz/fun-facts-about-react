@@ -1,3 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Inter', sans-serif;
+  margin: 0;
+}
+
+.navbar {
+  background-color: rgb(31, 30, 31);
+  flex: content;
+  padding: 10px 10px 10px 10px;
+}
+
+.navbar-title {
+  color: aqua;
+  -ms-flex-align: left;
+}
+
+.navbar-description {
+  color: rgb(237, 237, 237);
+  
+  font-weight: 600;
+  font-size: 1.5rem;
 }
