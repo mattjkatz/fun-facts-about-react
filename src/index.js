@@ -1,16 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./style.css";
-import Navbar from "./Navbar.js";
-import App from "./App.js";
-import Footer from "./Footer.js";
+import Navbar from "./components/Navbar.js";
+import Main from "./components/Main.js";
 
 function Everything() {
   return (
     <div>
       <Navbar />
-      <App />
-      <Footer />
+      <Main />
     </div>
   );
 }
