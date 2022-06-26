@@ -1,17 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./style.css";
-import Navbar from "./components/Navbar.js";
-import Main from "./components/Main.js";
+import App from "./App.js";
 
-function Everything() {
+function Index() {
   return (
     <div>
-      <Navbar />
-      <Main />
+      <App />
     </div>
   );
 }
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<Everything />);
+root.render(<Index />);

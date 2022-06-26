@@ -1,3 +1,3 @@
-export default function main() {
-  return <h1>I am in pain!</h1>;
+export default function Main() {
+  return <h1>BWAHHH</h1>;
 }
