@@ -1,8 +1,9 @@
 export default function Navbar() {
   return (
-    <div class="navbar">
-      <h1 class="navbar-title col">NavBar</h1>
-      <h1 class="navbar-description col">React Course - Project 1</h1>
-    </div>
+    <nav>
+      <img src={require("../images/react-icon-small.png")} alt="" />
+      <h3>ReactFacts</h3>
+      <h4>React Course - Project 1</h4>
+    </nav>
   );
 }
