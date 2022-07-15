@@ -25,6 +25,30 @@ body {
   font-size: 1.5rem;
 }
 
-.header-logo {
-  max-width: 10;
+nav {
+  display: flex;
+  align-items: center;
+  background-color: #21222A;
+  height: 90px;
+  padding: 20px 35px;
+}
+
+nav > h3, nav > h4 {
+  margin: 0;
+}
+
+nav > h3 {
+  margin-right: auto;
+  color: #61DAFB;
+  font-size: 22px;
+}
+
+nav > h4 {
+  color: #DEEBF8;
+  font-weight: 600;
+}
+
+nav > img {
+  height: 30px;
+  margin-right: 7px;
 }
